@@ -6,4 +6,4 @@ Each of these projects will be built with Maven. All projects will use the Sprin
 for testing.
 
 The projects will start off with a command line display, but over time the display will be changed to 
-HTML5 canvas.
+HTML5 on Angular SPA site.
