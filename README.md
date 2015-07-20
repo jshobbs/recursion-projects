@@ -3,6 +3,9 @@
 This repository contains many recursion projects. While these projects could have their own repository, 
 they are being grouped together because they all involve recursion.
 
+This repository will be part of an application that will show users how recursion works, allowing the
+user to step through the execution of a recursive method without needing debug features of an IDE.
+
 The projects will start off with a command line display, but over time the display will be changed to 
 HTML5 on Angular SPA site.
 
