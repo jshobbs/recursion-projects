@@ -1,7 +1,7 @@
 package com.jeffhobbsonline;
 
 /**
- * Fibonacci recursion
+ * Fibonacci Using Recursion
  *
  */
 public class Fibonacci 
