@@ -10,7 +10,7 @@ public class ReverseString
 		System.out.println(reverseString(greeting));
   	}
 
-	private static String reverseString(String greetString){
+	protected static String reverseString(String greetString){
 		
 		String strBackwards = "";
 
@@ -19,7 +19,6 @@ public class ReverseString
 		}
 		else{
 			strBackwards += greetString.charAt(greetString.length() - 1);
-			//System.out.println(strBackwards);
 			return strBackwards += reverseString(greetString.substring(0, greetString.length() - 1));
 		}
 	}
