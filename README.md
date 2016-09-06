@@ -15,3 +15,5 @@ just change IDE settings to create a JAR file at next compile time. Then just ru
 Recursion projects part of the repository:
 * Fibonnaci
 * Factorial
+* Palindrome
+* Reverse String
