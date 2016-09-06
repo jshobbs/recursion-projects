@@ -1,5 +1,6 @@
 package com.jeffhobbsonline;
 
+import junit.framework.Assert;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
@@ -29,10 +30,14 @@ public class ReverseStringTest
     }
 
     /**
-     * Rigourous Test :-)
+     * Rigourous Tests
      */
     public void testApp()
     {
         assertTrue( true );
+    }
+    public void testZero()
+    {
+    	Assert.assertEquals("olleh", ReverseString.reverseString("hello"));
     }
 }
