@@ -30,14 +30,14 @@ public class ReverseStringTest
     }
 
     /**
-     * Rigourous Tests
+     * Unit Tests
      */
-    public void testApp()
-    {
-        assertTrue( true );
-    }
-    public void testZero()
+    public void testSimpleStringWithNoSpaces()
     {
     	Assert.assertEquals("olleh", ReverseString.reverseString("hello"));
+    }
+    public void testSimpleStringWithSpaces()
+    {
+    	Assert.assertEquals("rac ecar", ReverseString.reverseString("race car"));
     }
 }
