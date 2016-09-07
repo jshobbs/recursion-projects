@@ -40,4 +40,8 @@ public class ReverseStringTest
     {
     	Assert.assertEquals("rac ecar", ReverseString.reverseString("race car"));
     }
+    public void testSimpleStringThatFails()
+    {
+   	Assert.assertFalse("lleh".equals(ReverseString.reverseString("hello")));
+    }
 }
